@@ -1,0 +1,113 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/escritorio/Documents/dotnet/MauiTest/MauiTest.csproj": {}
+  },
+  "projects": {
+    "/home/escritorio/Documents/dotnet/MauiTest/MauiTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/escritorio/Documents/dotnet/MauiTest/MauiTest.csproj",
+        "projectName": "MauiTest",
+        "projectPath": "/home/escritorio/Documents/dotnet/MauiTest/MauiTest.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/home/escritorio/Documents/dotnet/MauiTest/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "/root/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-android"
+        ],
+        "sources": {
+          "/usr/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-android31.0": {
+            "targetAlias": "net6.0-android",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-android31.0": {
+          "targetAlias": "net6.0-android",
+          "dependencies": {
+            "Microsoft.Maui.Dependencies": {
+              "target": "Package",
+              "version": "[6.0.552, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Maui.Extensions": {
+              "target": "Package",
+              "version": "[6.0.552, )",
+              "autoReferenced": true
+            },
+            "ZXing.Net.Maui": {
+              "target": "Package",
+              "version": "[0.2.0-preview.2, )"
+            },
+            "ZXing.Net.Maui.Comet": {
+              "target": "Package",
+              "version": "[0.2.0-preview.2, )"
+            },
+            "ZXing.Net.Maui.Controls": {
+              "target": "Package",
+              "version": "[0.2.0-preview.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Maui.Controls": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Maui.Core": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Maui.Essentials": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.407/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "android-arm": {
+          "#import": []
+        },
+        "android-arm64": {
+          "#import": []
+        },
+        "android-x64": {
+          "#import": []
+        },
+        "android-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
